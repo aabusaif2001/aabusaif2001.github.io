@@ -1,1 +1,101 @@
+/* I imported the fonts I'm using here*/
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans:400,700|Noto+Serif);
+
+/* I structured my elements here and sized and colored them to my liking */
+
+body {
+  margin: 0;
+}
+
+footer {
+	height: 64px;
+	background-color: #312246;
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;	
+}
+
+/* I gave each element throught 
+my html a font alongside color and 
+size and to give a little variety*/
+
+h1, h2 {
+	color: #725e4c;
+	font-family: 'Noto Serif', serif;
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 38px;}
+
+p, li {
+	font-family: 'Noto Sans', sans-serif;
+	color: #2d2c2a;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 26px;
+}
+
+/* I made these different spacers to use throughout 
+my html in order to decide how much space I wanted 
+in between each section as I noticed before everything 
+seemed to be basically touching */
+
+.sm {
+    height: 60px;
+    width: auto;
+}
+.md {
+    height: 90px;
+    width: auto;
+}
+.lg {
+    height: 175px;
+    width: auto;
+}
+
+.ft {
+    height: 15px;
+    width: auto;
+}
+ 
+/* Here I define each div class and give them 
+attributes and so I can reuse some of their names 
+and give different texts throughout the page different styles/colors.n*/
+.start {
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=cdf2819914&attid=0.1&permmsgid=msg-a:r-6735820307303916472&th=17b5bb31ab009181&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8tPxsf5Xl76Rex5qmf3J8nCgweH79hOO-C6vvkpcoLLRy-W_n42i_KiCaHlMUitOQGNxotZZOTYXnD-KhGiBvtbBBGKzatdanmtQe0jYuRGxRrG1JEOF1vn2g&disp=emb&realattid=17b5bb30f7180c400211");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:500px;
+    height: 500px;
+    border: 2px solid
+    text-align: center
+   
+}
+
+.start h1 {
+	font-size: 60px;
+	color: rgb(5, 9, 12);
+    text-align: center;
+    display:inline-block;
+    font-weight:bold;
+    padding:20px 10px;
+    margin-right:120px;
+	margin-top:200px;
+    margin-bottom:40px;
+    margin-inline-start: 120px;
+}
+
+.start h2 {
+	font-size: 32px;
+	color: rgba(36, 6, 23, 0.521);
+	background: #c9984e;
+	display:inline-flexbox;
+    padding: 12px 10px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 200px;
+}
+    
 
