@@ -36,7 +36,10 @@ p, li {
 	font-weight: 400;
     line-height: 26px;
 }
-
+/* Styled links here*/
+a:hover{ 
+    color: chartreuse;
+}
 /* I made these different spacers to use throughout 
 my html in order to decide how much space I wanted 
 in between each section as I noticed before everything 
@@ -63,6 +66,7 @@ seemed to be basically touching */
 /* Here I define each div class and give them 
 attributes and so I can reuse some of their names 
 and give different texts throughout the page different styles/colors.n*/
+
 .banner{
     display: block;
     -moz-box-sizing: border-box;
