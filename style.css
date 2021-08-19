@@ -9,7 +9,7 @@ body {
 
 footer {
 	height: 64px;
-	background-color: #312246;
+	background-color: #221b1f;
 }
 
 .wrapper {
@@ -21,7 +21,7 @@ footer {
 my html a font alongside color and 
 size and to give a little variety*/
 
-h1, h2 {
+h1, h2, h3 {
 	color: #725e4c;
 	font-family: 'Noto Serif', serif;
 }
@@ -51,7 +51,7 @@ seemed to be basically touching */
     width: auto;
 }
 .lg {
-    height: 175px;
+    height: 300px;
     width: auto;
 }
 
@@ -63,6 +63,15 @@ seemed to be basically touching */
 /* Here I define each div class and give them 
 attributes and so I can reuse some of their names 
 and give different texts throughout the page different styles/colors.n*/
+.banner{
+    display: block;
+    -moz-box-sizing: border-box;
+    background: border-box;
+    background: url(https://cdn.wallpapersafari.com/54/12/rSz5Cn.jpg) no-repeat;
+    width: 180px;
+    height: 220px;
+    padding-left: 180px;
+}
 .start {
     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=cdf2819914&attid=0.1&permmsgid=msg-a:r-6735820307303916472&th=17b5bb31ab009181&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8tPxsf5Xl76Rex5qmf3J8nCgweH79hOO-C6vvkpcoLLRy-W_n42i_KiCaHlMUitOQGNxotZZOTYXnD-KhGiBvtbBBGKzatdanmtQe0jYuRGxRrG1JEOF1vn2g&disp=emb&realattid=17b5bb30f7180c400211");
     background-repeat: no-repeat;
@@ -97,5 +106,7 @@ and give different texts throughout the page different styles/colors.n*/
     border-radius: 12px;
     margin-bottom: 200px;
 }
+    
+
     
 
